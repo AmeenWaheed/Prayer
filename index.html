@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="city">
+    <label for="city">Choose Your City: </label>
+    <select  id="city">
+        <option value="Cairo">Cairo</option>
+        <option value="Alexandria">Alexandria</option>
+        <option value="Giza">Giza</option>
+        <option value="Aswan">Aswan</option>
+        <option value="Kafr El Sheikh">Kafr El Sheikh</option>
+    </select>
+</div>
+
+    <div class="container">
+        <table>
+            <caption>Prayer Times Of Egypt: <span></span></caption>
+            <thead>
+                <tr>
+                    <td>Prayer Name</td>
+                    <td class="date-hijri">Date: <span></span></td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Fajr</td>
+                    <td id="fajr"></td>
+                </tr>
+                <tr>
+                    <td>Sunrise</td>
+                    <td id="sun"></td>
+                </tr>
+                <tr>
+                    <td>Zohr</td>
+                    <td id="zohr"></td>
+                </tr>
+                <tr>
+                    <td>Asr</td>
+                    <td id="asr"></td>
+                </tr>
+                <tr>
+                    <td>Maghreb</td>
+                    <td id="maghreb"></td>
+                </tr>
+                <tr>
+                    <td>Esha</td>
+                    <td id="esha"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
